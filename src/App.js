@@ -6,11 +6,11 @@ import ApiItem from './components/ApiItem';
 import Alert from './components/Alert';
 
 function App() {
-  const [search, setSearch] = useState('');
-  const [apis, setApis] = useState(getApis);
+  const [search, setSearch] = useState('')
+  const [apis, setApis] = useState(getApis)
 
   const bookmarks = apis.filter((api) => api.bookmark === true);
-  const filteredApis = apis.filter((api) => api.name.toLoverCase().includes(search.toLoverCase()));
+   
 
   const toggleBookmark = (id) => {
     setApis(
@@ -30,10 +30,11 @@ function App() {
         <div className='container'>
           <h4>Featured APIs of this week</h4>
           <div className='api-list'>
-            {filteredApis
+            {apis.filter((api) => 
+            api.name.toLowerCase().includes(search.toLowerCase())
+          )
           .map((api) => (   
             <ApiItem toggleBookmark={toggleBookmark} key={api.id} data={api} />))}
-            {filteredApis.length === 0 && <Alert message="API not found."/>}
           </div>
         </div>
         <div className="container">
