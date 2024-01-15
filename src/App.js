@@ -1,23 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import {useState} from "react"
+import './style.scss';
+import getApis from "./apis.json"
+import Search from './components/Search/Search';
+import ApiItem from './components/ApiItem';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <h3>A Collective list of free APIs for use in <br /> software and web development</h3>
+        <Search placeholder="Find development, games, images APIs"/>
+        <div className='container'>
+          <h4>Featured APIs of this week</h4>
+          <div className='api-list'>
+            {getApis.map((api) => (
+              <ApiItem key={api.id} data={api} />
+            ))}
+            
+          </div>
+        </div>
     </div>
   );
 }

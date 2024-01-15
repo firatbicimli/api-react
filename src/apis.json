@@ -1,0 +1,14 @@
+[
+    {
+        "id": 1,
+        "name": "Hunter",
+        "category": "Data access",
+        "description": "Hunter API makes it easy to find or verify professional email addresses."
+    },
+    {
+        "id": 2,
+        "name": "Hunter2",
+        "category": "Data access",
+        "description": "Hunter API makes it easy to find or verify professional email addresses."
+    }
+]
