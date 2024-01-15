@@ -3,12 +3,63 @@
         "id": 1,
         "name": "Hunter",
         "category": "Data access",
-        "description": "Hunter API makes it easy to find or verify professional email addresses."
+        "description": "Hunter API makes it easy to find or verify professional email addresses.",
+        "bookmark": false
     },
     {
         "id": 2,
-        "name": "Hunter2",
+        "name": "Twilio",
         "category": "Data access",
-        "description": "Hunter API makes it easy to find or verify professional email addresses."
+        "description": "Hunter API makes it easy to find or verify professional email addresses.",
+        "bookmark": false
+    },
+    {
+        "id": 3,
+        "name": "Whatsap Business",
+        "category": "Data access",
+        "description": "Hunter API makes it easy to find or verify professional email addresses.",
+        "bookmark": false
+    },
+    {
+        "id": 3,
+        "name": "Stripe",
+        "category": "Data access",
+        "description": "Hunter API makes it easy to find or verify professional email addresses.",
+        "bookmark": false
+    },
+    {
+        "id": 4,
+        "name": "Typeform",
+        "category": "Data access",
+        "description": "Hunter API makes it easy to find or verify professional email addresses.",
+        "bookmark": false
+    },
+    {
+        "id": 5,
+        "name": "BlaBlaCar",
+        "category": "Data access",
+        "description": "Hunter API makes it easy to find or verify professional email addresses.",
+        "bookmark": true
+    },
+    {
+        "id": 6,
+        "name": "Meteorologisk",
+        "category": "Data access",
+        "description": "Hunter API makes it easy to find or verify professional email addresses.",
+        "bookmark": false
+    },
+    {
+        "id": 7,
+        "name": "Asana",
+        "category": "Data access",
+        "description": "Hunter API makes it easy to find or verify professional email addresses.",
+        "bookmark": true
+    },
+    {
+        "id": 8,
+        "name": "Mailchimp",
+        "category": "Data access",
+        "description": "Hunter API makes it easy to find or verify professional email addresses.",
+        "bookmark": false
     }
 ]
